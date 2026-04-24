@@ -1,0 +1,16 @@
+{
+  "name": "aivoa-ai-first-crm",
+  "private": true,
+  "engines": {
+    "node": ">=20.19 <25"
+  },
+  "scripts": {
+    "app": "powershell -ExecutionPolicy Bypass -File .\\scripts\\run-app.ps1",
+    "backend": "powershell -ExecutionPolicy Bypass -File .\\scripts\\run-backend.ps1",
+    "backend:dev": "powershell -ExecutionPolicy Bypass -File .\\scripts\\run-backend-dev.ps1",
+    "frontend": "powershell -ExecutionPolicy Bypass -File .\\scripts\\run-frontend.ps1",
+    "start": "npm run app",
+    "test:backend": "powershell -ExecutionPolicy Bypass -File .\\scripts\\test-backend.ps1",
+    "build:frontend": "powershell -ExecutionPolicy Bypass -File .\\scripts\\build-frontend.ps1"
+  }
+}
